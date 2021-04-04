@@ -6,6 +6,15 @@ _Cloudflare Workers_ でキャッシュを利用しつつ外部 API へのリク
 
 サンプルではアメリカ証券取引委員会(SEC)が提供しているティッカー情報の JSON を返却します。利用規約により 1 秒間に 10 回までのリクエストに制限されています。詳細は[SEC のセキュリティポリシー](https://www.sec.gov/privacy.htm#security)を参照してください。
 
+## ユースケース
+
+以下の目的を満たすために作成しました。
+
+- 特定の外部 API を自サービスで利用したい
+- アクセスのたびに API をリクエストすることは避けたい
+- API サーバーを建てるのは面倒くさいので回避したい
+- サーバーレスな関数を試してみたい
+
 ## 学習時の参考資料
 
 - [Cloudflare Workers の説明](https://developers.cloudflare.com/workers/)
