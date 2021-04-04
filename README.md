@@ -1,8 +1,8 @@
 # Fetch JSON using Cache
 
-Cloudflare Workers でキャッシュを利用しつつ外部 API へのリクエスト結果を応答するサンプルアプリケーションです。
+_Cloudflare Workers_ でキャッシュを利用しつつ外部 API へのリクエスト結果を応答するサンプルアプリケーションです。外部 API 提供先へのリクエスト回数を抑えつつ、エッジでのスクリプト実行とキャッシュ応答による UX の向上を目指しています。
 
-[`index.js`](./blob/main/index.js)
+[`index.js`](./index.js)を Workers としてデプロイすることで動作します。
 
 ## 学習時の参考資料
 
