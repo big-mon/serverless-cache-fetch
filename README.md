@@ -4,6 +4,8 @@ _Cloudflare Workers_ でキャッシュを利用しつつ外部 API へのリク
 
 [`index.js`](./index.js)を Workers としてデプロイすることで動作します。
 
+サンプルではアメリカ証券取引委員会(SEC)が提供しているティッカー情報の JSON を返却します。利用規約により 1 秒間に 10 回までのリクエストに制限されています。詳細は[SEC のセキュリティポリシー](https://www.sec.gov/privacy.htm#security)を参照してください。
+
 ## 学習時の参考資料
 
 - [Cloudflare Workers の説明](https://developers.cloudflare.com/workers/)
